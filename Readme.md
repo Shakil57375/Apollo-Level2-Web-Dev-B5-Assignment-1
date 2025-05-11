@@ -1,7 +1,8 @@
-# TypeScript: Interfaces vs Types & Code Quality Benefits
+# TypeScript Insights
 
-## ❓ What are some differences between interfaces and types in TypeScript?
+## ❓ Question 1: What are some differences between interfaces and types in TypeScript?
 
+### ✅ Answer:
 In TypeScript, both `types` and `interfaces` are used to define the structure of an object, but they differ in their flexibility and use cases:
 
 - **Extending Structures**:
@@ -33,3 +34,28 @@ type User = {
 type User = {
   age: number;
 }; // Error: Duplicate identifier 'User'
+```
+
+---
+
+## ❓ Question 2: How does TypeScript help in improving code quality and project maintainability?
+
+### ✅ Answer:
+TypeScript is a statically typed superset of JavaScript that enhances code quality and maintainability through the following features:
+
+1. **Type Safety**  
+   Catches type-related errors at compile time, reducing runtime bugs.
+
+2. **Improved Code Readability**  
+   Explicit types help other developers understand the code more easily.
+
+3. **Enhanced IDE Support**  
+   Offers features like autocompletion, inline documentation, and refactoring tools.
+
+4. **Scalability**  
+   TypeScript is well-suited for large codebases, making it easier to scale applications.
+
+5. **Industry Adoption**  
+   Widely adopted and supported by many libraries and frameworks, which ensures community support and tooling.
+
+
