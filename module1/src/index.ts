@@ -3,7 +3,7 @@ function formatString(input: string, toUpper?: boolean): string {
     return input.toUpperCase();
   }
   return input.toLowerCase();
-}
+} 
 
 function filterByRating(
   items: { title: string; rating: number }[]
